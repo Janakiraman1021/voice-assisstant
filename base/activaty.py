@@ -4,6 +4,7 @@ from .general import speak
 import wikipedia
 import speech_recognition as sr #pip install speechRecognition
 import webbrowser
+from .general import takeCommand
 # import pyautogui as pg
 
 def time_now():

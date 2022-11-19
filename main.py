@@ -3,15 +3,9 @@
 from base.general import speak, takeCommand
 from base.activaty import ( wishMe,sendEmail, wiki, 
                            play_song, time_now, send_mail )
-
 #pip packages
-
-import time as t
 import os
-import wikipedia #pip install wikipedia
 import webbrowser
-import speech_recognition as sr
-import datetime
 
 
 if __name__ == "__main__":
